@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_add_user">AddUser</string>
+    <string name="title_activity_admin">admin</string>
+    <string name="title_activity_adduser">adduser</string>
+    <string name="title_activity_addbook">addbook</string>
+    <string name="title_activity_user">user</string>
+    <string name="title_activity_userlogin">userlogin</string>
+    <string name="title_activity_borrowbooks">borrowbooks</string>
+    <string name="title_activity_borrowedbooks">borrowedbooks</string>
+    <string name="title_activity_adminlogin">adminlogin</string>
+    <string name="title_activity_uid">uid</string>
+    <string name="title_activity_returnbook">returnbook</string>
+    <string name="title_activity_md">md</string>
+    <string name="title_activity_ussers">ussers</string>
+    <string name="title_activity_finepay">finepay</string>
+</resources>

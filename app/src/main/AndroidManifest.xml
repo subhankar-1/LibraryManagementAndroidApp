@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.subhankar.myapplication">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".admin"
+            android:label="@string/title_activity_admin">
+            <intent-filter>
+                <action android:name=".admin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".adduser"
+            android:label="@string/title_activity_adduser">
+            <intent-filter>
+                <action android:name=".adduser" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".addbook"
+            android:label="@string/title_activity_addbook">
+            <intent-filter>
+                <action android:name=".addbook" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user"
+            android:label="@string/title_activity_user">
+            <intent-filter>
+                <action android:name=".user" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".booklist">
+            <intent-filter>
+                <action android:name=".booklist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".userlogin"
+            android:label="@string/title_activity_userlogin">
+            <intent-filter>
+                <action android:name=".userlogin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".borrowbooks"
+            android:label="@string/title_activity_borrowbooks">
+            <intent-filter>
+                <action android:name=".borrowbooks" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".borrowedbooks"
+            android:label="@string/title_activity_borrowedbooks">
+            <intent-filter>
+                <action android:name=".borrowedbooks" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".adminlogin"
+            android:label="@string/title_activity_adminlogin">
+            <intent-filter>
+                <action android:name=".adminlogin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".uid"
+            android:label="@string/title_activity_uid">
+            <intent-filter>
+                <action android:name=".uid" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".returnbook"
+            android:label="@string/title_activity_returnbook">
+            <intent-filter>
+                <action android:name=".returnbook" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".md"
+            android:label="@string/title_activity_md">
+            <intent-filter>
+                <action android:name=".md" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ussers"
+            android:label="@string/title_activity_ussers">
+            <intent-filter>
+                <action android:name=".ussers" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".finepay"
+            android:label="@string/title_activity_finepay">
+            <intent-filter>
+                <action android:name=".finepay" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
